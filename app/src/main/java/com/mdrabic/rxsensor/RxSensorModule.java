@@ -2,6 +2,8 @@ package com.mdrabic.rxsensor;
 
 import android.app.Application;
 
+import com.mdrabic.sensorservice.LightSensorService;
+
 import javax.inject.Singleton;
 
 import dagger.Module;

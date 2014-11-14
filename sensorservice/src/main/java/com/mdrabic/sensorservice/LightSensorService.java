@@ -1,11 +1,10 @@
-package com.mdrabic.rxsensor;
+package com.mdrabic.sensorservice;
 
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.util.Log;
 
 import rx.subjects.BehaviorSubject;
 
@@ -37,7 +36,6 @@ public class LightSensorService implements SensorEventListener{
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         mSubject.onNext(new ProximityEventWrapper(sensorEvent));
-        Log.i(TAG, "Light : " + sensorEvent.values[0]);
     }
 
     @Override
