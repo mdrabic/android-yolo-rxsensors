@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxSensors.iml" filepath="$PROJECT_DIR$/RxSensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-yolo-rxsensors.iml" filepath="$PROJECT_DIR$/android-yolo-rxsensors.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
