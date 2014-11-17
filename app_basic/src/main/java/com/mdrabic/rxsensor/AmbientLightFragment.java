@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.mdrabic.sensorservice.LightSensorService;
+
 import javax.inject.Inject;
 
 import butterknife.ButterKnife;

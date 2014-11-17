@@ -3,12 +3,13 @@ package com.mdrabic.rxsensor;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.mdrabic.sensorservice.LightSensorService;
+
 import javax.inject.Inject;
 
 public class MainActivity extends Activity {
 
-    @Inject
-    LightSensorService mProximityService;
+    @Inject LightSensorService mProximityService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,1 +1,1 @@
-include ':app', ':sensorservice'
+include ':sensorservice', ':app_basic', ':app_mortar'
